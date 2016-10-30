@@ -14,7 +14,7 @@ define("port", default=5000, help="run on this port", type=int)
 define("debug", default=False, help="enable debug mode")
 define("cache", default=True, help="enable memcached mode")
 define("project_path", default=sys.path[0], help="deploy_path")
-
+print 'hhh'
 tornado.options.parse_command_line()
 
 URLS = (
