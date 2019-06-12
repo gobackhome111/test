@@ -5,4 +5,4 @@ add in github
 
 add int develop
 
-git test merge develop
+test for merge develop
